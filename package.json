@@ -1,0 +1,29 @@
+{
+  "name": "accountx",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mobile PWA for inayatco receivables, payables, payments and journals on ERPNext v16",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "vue-tsc --noEmit",
+    "icons": "python3 scripts/make_icons.py"
+  },
+  "dependencies": {
+    "pinia": "^2.3.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.4",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "~5.7.3",
+    "vite": "^6.2.0",
+    "vite-plugin-pwa": "^1.0.0",
+    "vitest": "^3.0.7",
+    "vue-tsc": "^2.2.8"
+  }
+}
